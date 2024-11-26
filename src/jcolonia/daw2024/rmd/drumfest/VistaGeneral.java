@@ -100,7 +100,7 @@ public class VistaGeneral {
 				salir = true;
 			}
 		} while (!salir);
-		return textoEntrada;
+		return textoEntrada.trim();
 	}
 
 	/**
