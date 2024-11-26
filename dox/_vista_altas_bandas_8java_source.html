@@ -1,0 +1,185 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Grupo4D: Archivo de código fuente src/jcolonia/daw2024/rmd/drumfest/VistaAltasBandas.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Grupo4D<span id="projectnumber">&#160;1.9.8</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('_vista_altas_bandas_8java_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">VistaAltasBandas.java</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">package </span>jcolonia.daw2024.rmd.drumfest;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">import</span> <span class="keyword">static</span> java.lang.System.out;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">import</span> java.util.Scanner;</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">import</span> java.util.Vector;</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="foldopen" id="foldopen00014" data-start="{" data-end="};">
+<div class="line"><a id="l00014" name="l00014"></a><span class="lineno"><a class="line" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html">   14</a></span><span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html">VistaAltasBandas</a> <span class="keyword">extends</span> <a class="code hl_class" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general.html">VistaGeneral</a> {</div>
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno">   15</span> </div>
+<div class="line"><a id="l00017" name="l00017"></a><span class="lineno"><a class="line" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html#aa755f4794aa61f723bdfe96da0ecbf4f">   17</a></span>    <span class="keyword">private</span> String <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html#aa755f4794aa61f723bdfe96da0ecbf4f">nombre</a>;</div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno">   18</span> </div>
+<div class="foldopen" id="foldopen00025" data-start="{" data-end="}">
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno"><a class="line" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html#ade23c17ba3ed65c4e0c5c3c8719dcf7e">   25</a></span>    <span class="keyword">public</span> <a class="code hl_function" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html#ade23c17ba3ed65c4e0c5c3c8719dcf7e">VistaAltasBandas</a>(String <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html#aa755f4794aa61f723bdfe96da0ecbf4f">nombre</a>, Scanner entrada) {</div>
+<div class="line"><a id="l00026" name="l00026"></a><span class="lineno">   26</span>        super(<a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html#aa755f4794aa61f723bdfe96da0ecbf4f">nombre</a>, entrada);</div>
+<div class="line"><a id="l00027" name="l00027"></a><span class="lineno">   27</span>        this.nombre = <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html#aa755f4794aa61f723bdfe96da0ecbf4f">nombre</a>;</div>
+<div class="line"><a id="l00028" name="l00028"></a><span class="lineno">   28</span> </div>
+<div class="line"><a id="l00029" name="l00029"></a><span class="lineno">   29</span>    }</div>
+</div>
+<div class="line"><a id="l00030" name="l00030"></a><span class="lineno">   30</span> </div>
+<div class="foldopen" id="foldopen00037" data-start="{" data-end="}">
+<div class="line"><a id="l00037" name="l00037"></a><span class="lineno"><a class="line" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html#a7da6f6fa6e960858fe25bd605e7f3cde">   37</a></span>    <span class="keyword">public</span> Vector&lt;Banda&gt; <a class="code hl_function" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html#a7da6f6fa6e960858fe25bd605e7f3cde">introducirAltas</a>() {</div>
+<div class="line"><a id="l00038" name="l00038"></a><span class="lineno">   38</span>        Scanner in = <a class="code hl_function" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general.html#aeac11f16a9213868fb783a1d2d44f0c4">getScEntrada</a>();</div>
+<div class="line"><a id="l00039" name="l00039"></a><span class="lineno">   39</span>        <a class="code hl_class" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_alta_relevancia.html">VistaAltaRelevancia</a> vistaRelevancia = <span class="keyword">new</span> <a class="code hl_class" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_alta_relevancia.html">VistaAltaRelevancia</a>(<span class="stringliteral">&quot;Relevancia Artista&quot;</span>, in);</div>
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno">   40</span>        Vector&lt;Banda&gt; conjuntoAltasBandas = <span class="keyword">new</span> Vector&lt;Banda&gt;();</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        <span class="keywordtype">boolean</span> salir = <span class="keyword">false</span>;</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        <a class="code hl_class" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_banda.html">Banda</a> banda;</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span> </div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>        <span class="keywordflow">do</span> {</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>            banda = <span class="keyword">new</span> <a class="code hl_class" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_banda.html">Banda</a>();</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>            banda.setNombre(<a class="code hl_function" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general.html#a96c9b63b2323c9173ab9afae372011f1">leerTexto</a>(<span class="stringliteral">&quot;Nombre:&quot;</span>));</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>            banda.setGénero(<a class="code hl_function" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general.html#a96c9b63b2323c9173ab9afae372011f1">leerTexto</a>(<span class="stringliteral">&quot;Género:&quot;</span>));</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>            vistaRelevancia.mostrarTítulo();</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span>            <a class="code hl_class" href="enumjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_relevancia.html">Relevancia</a> relevanciaElegida = vistaRelevancia.introducirRelevancia();</div>
+<div class="line"><a id="l00050" name="l00050"></a><span class="lineno">   50</span>            banda.setRelevancia(relevanciaElegida);</div>
+<div class="line"><a id="l00051" name="l00051"></a><span class="lineno">   51</span>            banda.setMiembros(<a class="code hl_function" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general.html#a8057b7d558ec2962ccc18054a5728430">leerNúmero</a>(<span class="stringliteral">&quot;Número de miembros:&quot;</span>));</div>
+<div class="line"><a id="l00052" name="l00052"></a><span class="lineno">   52</span>            banda.setBaterista(<a class="code hl_function" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general.html#a96c9b63b2323c9173ab9afae372011f1">leerTexto</a>(<span class="stringliteral">&quot;Nombre Baterista:&quot;</span>));</div>
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno">   53</span>            conjuntoAltasBandas.add(banda);</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>            out.println(<span class="stringliteral">&quot;\u001B[32m¡Banda registrada correctamente!\u001B[0m&quot;</span>);</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>            out.println(<span class="stringliteral">&quot;→ Registro de nueva entrada ←&quot;</span>);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>            <span class="keywordflow">if</span> (<a class="code hl_function" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general.html#a3a567289acc9e63ad76fe033eeb9e0aa">pedirConfirmación</a>() == <span class="keyword">false</span>) {</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span>                salir = <span class="keyword">true</span>;</div>
+<div class="line"><a id="l00058" name="l00058"></a><span class="lineno">   58</span>            }</div>
+<div class="line"><a id="l00059" name="l00059"></a><span class="lineno">   59</span>        } <span class="keywordflow">while</span> (!salir);</div>
+<div class="line"><a id="l00060" name="l00060"></a><span class="lineno">   60</span>        <span class="keywordflow">return</span> conjuntoAltasBandas;</div>
+<div class="line"><a id="l00061" name="l00061"></a><span class="lineno">   61</span>    }</div>
+</div>
+<div class="line"><a id="l00062" name="l00062"></a><span class="lineno">   62</span> </div>
+<div class="foldopen" id="foldopen00066" data-start="{" data-end="}">
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno"><a class="line" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html#abba8051ee570ff6ac203da6a0dea1bac">   66</a></span>    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html#abba8051ee570ff6ac203da6a0dea1bac">mostrarTítulo</a>() {</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>        out.println(<a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html#aa755f4794aa61f723bdfe96da0ecbf4f">nombre</a>);</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html#aa755f4794aa61f723bdfe96da0ecbf4f">nombre</a>.length(); i++) {</div>
+<div class="line"><a id="l00069" name="l00069"></a><span class="lineno">   69</span>            out.print(<span class="stringliteral">&quot;-&quot;</span>);</div>
+<div class="line"><a id="l00070" name="l00070"></a><span class="lineno">   70</span>        }</div>
+<div class="line"><a id="l00071" name="l00071"></a><span class="lineno">   71</span>        out.println();</div>
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno">   72</span>    }</div>
+</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span> </div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>}</div>
+</div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_banda_html"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_banda.html">jcolonia.daw2024.rmd.drumfest.Banda</a></div><div class="ttdoc">Agrupación de características principales de las bandas musicales.</div><div class="ttdef"><b>Definition</b> <a href="_banda_8java_source.html#l00009">Banda.java:9</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_alta_relevancia_html"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_alta_relevancia.html">jcolonia.daw2024.rmd.drumfest.VistaAltaRelevancia</a></div><div class="ttdoc">Vista para el registro de la relevancia de los artistas dentro del festival, empleando valores obteni...</div><div class="ttdef"><b>Definition</b> <a href="_vista_alta_relevancia_8java_source.html#l00015">VistaAltaRelevancia.java:15</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas_html"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html">jcolonia.daw2024.rmd.drumfest.VistaAltasBandas</a></div><div class="ttdoc">Vista para la introducción de bandas musicales.</div><div class="ttdef"><b>Definition</b> <a href="#l00014">VistaAltasBandas.java:14</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas_html_a7da6f6fa6e960858fe25bd605e7f3cde"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html#a7da6f6fa6e960858fe25bd605e7f3cde">jcolonia.daw2024.rmd.drumfest.VistaAltasBandas.introducirAltas</a></div><div class="ttdeci">Vector&lt; Banda &gt; introducirAltas()</div><div class="ttdoc">Almacena las altas introducidas en el conjunto de elementos «Banda» que van a participar en el conjun...</div><div class="ttdef"><b>Definition</b> <a href="#l00037">VistaAltasBandas.java:37</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas_html_aa755f4794aa61f723bdfe96da0ecbf4f"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html#aa755f4794aa61f723bdfe96da0ecbf4f">jcolonia.daw2024.rmd.drumfest.VistaAltasBandas.nombre</a></div><div class="ttdeci">String nombre</div><div class="ttdoc">Nombre de la vista.</div><div class="ttdef"><b>Definition</b> <a href="#l00017">VistaAltasBandas.java:17</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas_html_abba8051ee570ff6ac203da6a0dea1bac"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html#abba8051ee570ff6ac203da6a0dea1bac">jcolonia.daw2024.rmd.drumfest.VistaAltasBandas.mostrarTítulo</a></div><div class="ttdeci">void mostrarTítulo()</div><div class="ttdoc">Muestra el título asignado para el menú.</div><div class="ttdef"><b>Definition</b> <a href="#l00066">VistaAltasBandas.java:66</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas_html_ade23c17ba3ed65c4e0c5c3c8719dcf7e"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html#ade23c17ba3ed65c4e0c5c3c8719dcf7e">jcolonia.daw2024.rmd.drumfest.VistaAltasBandas.VistaAltasBandas</a></div><div class="ttdeci">VistaAltasBandas(String nombre, Scanner entrada)</div><div class="ttdoc">Inicializa y asigna el nombre del menú y la entrada recibida.</div><div class="ttdef"><b>Definition</b> <a href="#l00025">VistaAltasBandas.java:25</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general_html"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general.html">jcolonia.daw2024.rmd.drumfest.VistaGeneral</a></div><div class="ttdoc">Vista general para la interacción con el usuario.</div><div class="ttdef"><b>Definition</b> <a href="_vista_general_8java_source.html#l00014">VistaGeneral.java:14</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general_html_a3a567289acc9e63ad76fe033eeb9e0aa"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general.html#a3a567289acc9e63ad76fe033eeb9e0aa">jcolonia.daw2024.rmd.drumfest.VistaGeneral.pedirConfirmación</a></div><div class="ttdeci">boolean pedirConfirmación()</div><div class="ttdoc">Pregunta al usuario si desea continuar.</div><div class="ttdef"><b>Definition</b> <a href="_vista_general_8java_source.html#l00062">VistaGeneral.java:62</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general_html_a8057b7d558ec2962ccc18054a5728430"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general.html#a8057b7d558ec2962ccc18054a5728430">jcolonia.daw2024.rmd.drumfest.VistaGeneral.leerNúmero</a></div><div class="ttdeci">int leerNúmero(String pregunta)</div><div class="ttdoc">Lectura del número introducido por el usuario verificando que la entrada solo puedan ser números ente...</div><div class="ttdef"><b>Definition</b> <a href="_vista_general_8java_source.html#l00113">VistaGeneral.java:113</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general_html_a96c9b63b2323c9173ab9afae372011f1"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general.html#a96c9b63b2323c9173ab9afae372011f1">jcolonia.daw2024.rmd.drumfest.VistaGeneral.leerTexto</a></div><div class="ttdeci">String leerTexto(String pregunta)</div><div class="ttdoc">Lectura del texto introducido por el usuario controlando que la entrada no pueda ser vacía.</div><div class="ttdef"><b>Definition</b> <a href="_vista_general_8java_source.html#l00089">VistaGeneral.java:89</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general_html_aeac11f16a9213868fb783a1d2d44f0c4"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general.html#aeac11f16a9213868fb783a1d2d44f0c4">jcolonia.daw2024.rmd.drumfest.VistaGeneral.getScEntrada</a></div><div class="ttdeci">Scanner getScEntrada()</div><div class="ttdoc">Consulta la entrada estándar.</div><div class="ttdef"><b>Definition</b> <a href="_vista_general_8java_source.html#l00053">VistaGeneral.java:53</a></div></div>
+<div class="ttc" id="aenumjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_relevancia_html"><div class="ttname"><a href="enumjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_relevancia.html">jcolonia.daw2024.rmd.drumfest.Relevancia</a></div><div class="ttdoc">Enumeración para categorizar la relevancia de las artistas invitadas al evento.</div><div class="ttdef"><b>Definition</b> <a href="_relevancia_8java_source.html#l00010">Relevancia.java:10</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_78deb72e8665551e78cec9eb6bfcad5f.html">jcolonia</a></li><li class="navelem"><a class="el" href="dir_608e1fc860cc5e14ae3d5eecca5890fd.html">daw2024</a></li><li class="navelem"><a class="el" href="dir_f32729509785a5ace08fb5780eba9cdb.html">rmd</a></li><li class="navelem"><a class="el" href="dir_8afd5aeb2cd491fcfd2caddef8c706d1.html">drumfest</a></li><li class="navelem"><b>VistaAltasBandas.java</b></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,57 @@
+@startuml
+set separator none
+
+package "jcolonia.daw2024.rmd.drumfest" <<frame>>{
+
+class Banda{
+-nombre: String
+-género: String
+-relevancia: Relevancia
+-miembros: int
+-baterista: String
++Banda()
++getNombre(): String
++setNombre(nombre: String): void
++getGénero(): String
++setGénero(género: String): void
++getRelevancia(): Relevancia
++setRelevancia(relevancia: Relevancia): void
++getMiembros(): int
++setMiembros(miembros: int): void
++getBaterista(): String
++setBaterista(baterista: String): void
++toString(): String
++toCSVString(): String
+}
+
+class Festival{
+-conjuntoBandas: Vector<Banda>
++Festival()
++ofFestival(líneasArchivoCSV: List<String>): Festival
++añadir(elemento: Banda): void
++añadirTodos(elementos: Vector<Banda>): void
++consultarPosición(posición: int): Banda
++consultarElementos(): boolean
++eliminarTodos(): void
++eliminarPosición(posición: int): void
++toTextoListado(): List<String>
++toCSVTextoListado(): List<String>
+}
+
+enum Relevancia{
+ARTISTA_CABEZA_CARTEL
+ARTISTA_INVITADA
+ARTISTA_TELONERO
+ARTISTA_PRINCIPAL
++{static} getNames(): String[]
+}
+
+Banda -- Relevancia
+Festival o-- Banda : 0..*
+
+Festival - Banda: contiene >  
+}
+
+footer Modelo Elemento/Conjunto − DrumFest'24 (20240425) | Rodrigo Martínez Delgado – CIFP Juan de Colonia\nPlantUML versión %version()
+
+@enduml

@@ -1,0 +1,63 @@
+@startuml
+set separator none
+
+package "jcolonia.daw2024.rmd.drumfest" <<Frame>>{
+
+class VistaGeneral{
+-nombre: String
+-scEntrada: Scanner
+-{static} SI: String
+-{static} NO: String
++VistaGeneral(nombre: String, in: Scanner)
++mostrarTítulo(): void
++getScEntrada(): Scanner
++pedirConfirmación(): boolean
++leerTexto(pregunta: String): String
++leerNúmero(pregunta: String): int
+}
+
+class VistaMenú{
+-listaOpciones: String[]
+-opción: int
+-nombre: String
++VistaMenú(nombre: String, listaOpciones: String[], entrada Scanner)
++mostrarTítulo(): void
++mostrarMenú(): void
++pedirOpción(): int
+}
+
+class VistaAltasBandas{
+-nombre: String
++VistaAltas(nombre: String, entrada: Scanner)
++introducirAltas(): Vector<Banda>
++mostrarTítulo(): void
+}
+
+class VistaListado{
+-nombre: String
+-{static} CYAN: String
+-{static} RESET: String
++VistaListado(nombre: String, entrada: Scanner)
++mostrarTítulo(): void
++listar(elemento: List<String>): void
++acercaDe: void
+}
+
+class VistaAltaRelevancia{
+-nombre: String
++VistaAltaRelevancia(nombre: String, scEntrada Scanner)
++mostrarTítulo(): void
++introducirRelevancia: Relevancia
+}
+
+
+VistaMenú --|> VistaGeneral
+VistaAltasBandas --|> VistaGeneral
+VistaGeneral <|-- VistaListado 
+VistaGeneral <|-- VistaAltaRelevancia
+
+}
+
+footer Modelo Vistas − DrumFest'24 (20240425) | Rodrigo Martínez Delgado – CIFP Juan de Colonia\nPlantUML versión %version()
+
+@enduml

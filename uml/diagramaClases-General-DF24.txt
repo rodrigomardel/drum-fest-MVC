@@ -1,0 +1,87 @@
+@startuml
+set separator none
+
+package "jcolonia.daw2024.rmd.drumfest" <<Frame>>{
+
+class VistaGeneral{
+}
+
+class VistaMenú{
+}
+
+class VistaAltasBandas{
+}
+
+class VistaListado{
+}
+
+class VistaAltaRelevancia{
+}
+
+class ControlBandas{
+-entrada: Scanner
+-conjuntoBandas: Festival
+-vistaListado: VistaListado
++{static} OPCIONES_MENÚ_PRINCIPAL: String[]
+-{static} NOMBRE_PREDETERMINADO: String
+-{static} YELLOW: String
+-{static} GREEN: String
+-{static} RESET: String
++ControlBandas(entrada: Scanner)
++importarBandas(): void
++exportarBandas(): void
++listarBandas(): void
++introducirBandas(): void
++borrarBandas(): void
++informaciónAplicación():void 
++buclePrincipal(): void
++{static} main(argumentos: String[]): void
+}
+
+class Exportación{
+-entrada: Scanner
+-{static} NOMBRE_PREDETERMINADO: String
+-{static} YELLOW: String
+-{static} GREEN: String
+-{static} RESET: String
++Exportación()
++exportar(elementos: List<String>): void
+}
+
+class Importación{
++Importación()
++importar(archivoImportar: String, elementos: List<String>): void
+}
+
+class Banda{
+}
+
+enum Relevancia{
+}
+
+class Festival{
+}
+
+VistaMenú --|> VistaGeneral
+VistaAltasBandas --|> VistaGeneral
+VistaListado --|> VistaGeneral
+VistaAltaRelevancia --|> VistaGeneral
+VistaAltasBandas ..> VistaAltaRelevancia
+ControlBandas..> VistaMenú
+ControlBandas..> VistaAltasBandas
+ControlBandas..> VistaListado
+Importación <.. ControlBandas
+Exportación <.. ControlBandas
+VistaAltaRelevancia ..> Relevancia
+
+Banda -- Relevancia
+VistaAltasBandas ..> Banda
+Festival o-- Banda : 0..*
+
+Festival - Banda: contiene >  
+ControlBandas - Festival: gestión >
+}
+
+footer MVC − DrumFest'24 (20240425) | Rodrigo Martínez Delgado – CIFP Juan de Colonia\nPlantUML versión %version()
+
+@enduml 

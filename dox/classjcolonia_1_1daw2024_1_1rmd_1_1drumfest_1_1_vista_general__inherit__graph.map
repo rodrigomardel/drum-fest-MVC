@@ -1,0 +1,11 @@
+<map id="jcolonia.daw2024.rmd.drumfest.VistaGeneral" name="jcolonia.daw2024.rmd.drumfest.VistaGeneral">
+<area shape="rect" id="Node000001" title="Vista general para la interacción con el usuario." alt="" coords="565,5,835,245"/>
+<area shape="rect" id="Node000002" href="$classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_alta_relevancia.html" title="Vista para el registro de la relevancia de los artistas dentro del festival, empleando valores obteni..." alt="" coords="5,347,352,459"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="553,200,365,296,271,349,268,344,363,291,550,195"/>
+<area shape="rect" id="Node000003" href="$classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_altas_bandas.html" title="Vista para la introducción de bandas musicales." alt="" coords="376,347,696,459"/>
+<area shape="poly" id="edge2_Node000001_Node000003" title=" " alt="" coords="624,259,571,348,566,346,619,257"/>
+<area shape="rect" id="Node000004" href="$classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html" title="Vista del listado de un conjunto de elementos en forma de («array») de cadenas de texto." alt="" coords="720,293,1008,512"/>
+<area shape="poly" id="edge3_Node000001_Node000004" title=" " alt="" coords="781,257,802,292,797,295,776,259"/>
+<area shape="rect" id="Node000005" href="$classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_men_xC3_xBA.html" title="Vista del menú para la interacción con el usuario." alt="" coords="1032,315,1443,491"/>
+<area shape="poly" id="edge4_Node000001_Node000005" title=" " alt="" coords="850,200,1069,312,1067,317,847,205"/>
+</map>

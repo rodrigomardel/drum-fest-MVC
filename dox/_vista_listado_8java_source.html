@@ -1,0 +1,182 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "https://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" lang="es">
+<head>
+<meta http-equiv="Content-Type" content="text/xhtml;charset=UTF-8"/>
+<meta http-equiv="X-UA-Compatible" content="IE=11"/>
+<meta name="generator" content="Doxygen 1.10.0"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>Grupo4D: Archivo de código fuente src/jcolonia/daw2024/rmd/drumfest/VistaListado.java</title>
+<link href="tabs.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="jquery.js"></script>
+<script type="text/javascript" src="dynsections.js"></script>
+<script type="text/javascript" src="clipboard.js"></script>
+<link href="navtree.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="resize.js"></script>
+<script type="text/javascript" src="navtreedata.js"></script>
+<script type="text/javascript" src="navtree.js"></script>
+<script type="text/javascript" src="cookie.js"></script>
+<link href="search/search.css" rel="stylesheet" type="text/css"/>
+<script type="text/javascript" src="search/searchdata.js"></script>
+<script type="text/javascript" src="search/search.js"></script>
+<link href="doxygen.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+<div id="top"><!-- do not remove this div, it is closed by doxygen! -->
+<div id="titlearea">
+<table cellspacing="0" cellpadding="0">
+ <tbody>
+ <tr id="projectrow">
+  <td id="projectalign">
+   <div id="projectname">Grupo4D<span id="projectnumber">&#160;1.9.8</span>
+   </div>
+  </td>
+ </tr>
+ </tbody>
+</table>
+</div>
+<!-- end header part -->
+<!-- Generado por Doxygen 1.10.0 -->
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+var searchBox = new SearchBox("searchBox", "search/",'.html');
+/* @license-end */
+</script>
+<script type="text/javascript" src="menudata.js"></script>
+<script type="text/javascript" src="menu.js"></script>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() {
+  initMenu('',true,false,'search.php','Buscar');
+  $(function() { init_search(); });
+});
+/* @license-end */
+</script>
+<div id="main-nav"></div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function() { codefold.init(0); });
+/* @license-end */
+</script>
+</div><!-- top -->
+<div id="side-nav" class="ui-resizable side-nav-resizable">
+  <div id="nav-tree">
+    <div id="nav-tree-contents">
+      <div id="nav-sync" class="sync"></div>
+    </div>
+  </div>
+  <div id="splitbar" style="-moz-user-select:none;" 
+       class="ui-resizable-handle">
+  </div>
+</div>
+<script type="text/javascript">
+/* @license magnet:?xt=urn:btih:d3d9a9a6595521f9666a5e94cc830dab83b65699&amp;dn=expat.txt MIT */
+$(function(){initNavTree('_vista_listado_8java_source.html',''); initResizable(); });
+/* @license-end */
+</script>
+<div id="doc-content">
+<!-- window showing the filter options -->
+<div id="MSearchSelectWindow"
+     onmouseover="return searchBox.OnSearchSelectShow()"
+     onmouseout="return searchBox.OnSearchSelectHide()"
+     onkeydown="return searchBox.OnSearchSelectKey(event)">
+</div>
+
+<!-- iframe showing the search results (closed by default) -->
+<div id="MSearchResultsWindow">
+<div id="MSearchResults">
+<div class="SRPage">
+<div id="SRIndex">
+<div id="SRResults"></div>
+<div class="SRStatus" id="Loading">Cargando...</div>
+<div class="SRStatus" id="Searching">Buscando...</div>
+<div class="SRStatus" id="NoMatches">Nada coincide</div>
+</div>
+</div>
+</div>
+</div>
+
+<div class="header">
+  <div class="headertitle"><div class="title">VistaListado.java</div></div>
+</div><!--header-->
+<div class="contents">
+<div class="fragment"><div class="line"><a id="l00001" name="l00001"></a><span class="lineno">    1</span><span class="keyword">package </span>jcolonia.daw2024.rmd.drumfest;</div>
+<div class="line"><a id="l00002" name="l00002"></a><span class="lineno">    2</span> </div>
+<div class="line"><a id="l00003" name="l00003"></a><span class="lineno">    3</span><span class="keyword">import</span> <span class="keyword">static</span> java.lang.System.out;</div>
+<div class="line"><a id="l00004" name="l00004"></a><span class="lineno">    4</span> </div>
+<div class="line"><a id="l00005" name="l00005"></a><span class="lineno">    5</span><span class="keyword">import</span> java.util.List;</div>
+<div class="line"><a id="l00006" name="l00006"></a><span class="lineno">    6</span><span class="keyword">import</span> java.util.Scanner;</div>
+<div class="line"><a id="l00007" name="l00007"></a><span class="lineno">    7</span> </div>
+<div class="foldopen" id="foldopen00015" data-start="{" data-end="};">
+<div class="line"><a id="l00015" name="l00015"></a><span class="lineno"><a class="line" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html">   15</a></span><span class="keyword">public</span> <span class="keyword">class </span><a class="code hl_class" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html">VistaListado</a> <span class="keyword">extends</span> <a class="code hl_class" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general.html">VistaGeneral</a> {</div>
+<div class="line"><a id="l00016" name="l00016"></a><span class="lineno">   16</span> </div>
+<div class="line"><a id="l00018" name="l00018"></a><span class="lineno"><a class="line" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#aa3c705799426e73a5bf875a5e20287cb">   18</a></span>    <span class="keyword">private</span> String <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#aa3c705799426e73a5bf875a5e20287cb">nombre</a>;</div>
+<div class="line"><a id="l00020" name="l00020"></a><span class="lineno"><a class="line" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#afed62420a270f30b6cbc90d2dbb5e26e">   20</a></span>    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> String <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#afed62420a270f30b6cbc90d2dbb5e26e">CYAN</a> = <span class="stringliteral">&quot;\u001B[36m&quot;</span>;</div>
+<div class="line"><a id="l00022" name="l00022"></a><span class="lineno"><a class="line" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a5bb0c0b1a1acd8cbc9de5d69adb9667f">   22</a></span>    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> String <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a5bb0c0b1a1acd8cbc9de5d69adb9667f">RESET</a> = <span class="stringliteral">&quot;\u001B[0m&quot;</span>;</div>
+<div class="line"><a id="l00024" name="l00024"></a><span class="lineno"><a class="line" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a855b6047994a679106a802acebabdba0">   24</a></span>    <span class="keyword">private</span> <span class="keyword">static</span> <span class="keyword">final</span> String[] <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a855b6047994a679106a802acebabdba0">CABECERA_LISTADO</a> = { <span class="stringliteral">&quot;Nombre&quot;</span>, <span class="stringliteral">&quot;Género&quot;</span>, <span class="stringliteral">&quot;Relevancia&quot;</span>, <span class="stringliteral">&quot;Miembros&quot;</span>, <span class="stringliteral">&quot;Baterista&quot;</span> };</div>
+<div class="line"><a id="l00025" name="l00025"></a><span class="lineno">   25</span> </div>
+<div class="foldopen" id="foldopen00032" data-start="{" data-end="}">
+<div class="line"><a id="l00032" name="l00032"></a><span class="lineno"><a class="line" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a30738716bc9b69a2bdbff90201518669">   32</a></span>    <span class="keyword">public</span> <a class="code hl_function" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a30738716bc9b69a2bdbff90201518669">VistaListado</a>(String <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#aa3c705799426e73a5bf875a5e20287cb">nombre</a>, Scanner entrada) {</div>
+<div class="line"><a id="l00033" name="l00033"></a><span class="lineno">   33</span>        super(<a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#aa3c705799426e73a5bf875a5e20287cb">nombre</a>, entrada);</div>
+<div class="line"><a id="l00034" name="l00034"></a><span class="lineno">   34</span>        this.nombre = <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#aa3c705799426e73a5bf875a5e20287cb">nombre</a>;</div>
+<div class="line"><a id="l00035" name="l00035"></a><span class="lineno">   35</span>    }</div>
+</div>
+<div class="line"><a id="l00036" name="l00036"></a><span class="lineno">   36</span> </div>
+<div class="foldopen" id="foldopen00040" data-start="{" data-end="}">
+<div class="line"><a id="l00040" name="l00040"></a><span class="lineno"><a class="line" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#ae9f7f29640df225a684494e371f6703f">   40</a></span>    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#ae9f7f29640df225a684494e371f6703f">mostrarTítulo</a>() {</div>
+<div class="line"><a id="l00041" name="l00041"></a><span class="lineno">   41</span>        out.printf(<span class="stringliteral">&quot;                                      %s%n&quot;</span>, <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#aa3c705799426e73a5bf875a5e20287cb">nombre</a>);</div>
+<div class="line"><a id="l00042" name="l00042"></a><span class="lineno">   42</span>        out.print(<span class="stringliteral">&quot;                                      -&quot;</span>);</div>
+<div class="line"><a id="l00043" name="l00043"></a><span class="lineno">   43</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#aa3c705799426e73a5bf875a5e20287cb">nombre</a>.length() - 1; i++) {</div>
+<div class="line"><a id="l00044" name="l00044"></a><span class="lineno">   44</span>            out.print(<span class="stringliteral">&quot;-&quot;</span>);</div>
+<div class="line"><a id="l00045" name="l00045"></a><span class="lineno">   45</span>        }</div>
+<div class="line"><a id="l00046" name="l00046"></a><span class="lineno">   46</span>        out.println();</div>
+<div class="line"><a id="l00047" name="l00047"></a><span class="lineno">   47</span>        out.println();</div>
+<div class="line"><a id="l00048" name="l00048"></a><span class="lineno">   48</span>    }</div>
+</div>
+<div class="line"><a id="l00049" name="l00049"></a><span class="lineno">   49</span> </div>
+<div class="foldopen" id="foldopen00053" data-start="{" data-end="}">
+<div class="line"><a id="l00053" name="l00053"></a><span class="lineno"><a class="line" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a439a7440cd64c7f82b515725075ccb87">   53</a></span>    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a439a7440cd64c7f82b515725075ccb87">mostrarCabecera</a>() {</div>
+<div class="line"><a id="l00054" name="l00054"></a><span class="lineno">   54</span>        out.printf(<span class="stringliteral">&quot;           %-14.14s       %-14.14s     %-14.14s   %-14.14s   %-14.14s %n&quot;</span>, <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a855b6047994a679106a802acebabdba0">CABECERA_LISTADO</a>[0],</div>
+<div class="line"><a id="l00055" name="l00055"></a><span class="lineno">   55</span>                <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a855b6047994a679106a802acebabdba0">CABECERA_LISTADO</a>[1], <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a855b6047994a679106a802acebabdba0">CABECERA_LISTADO</a>[2], <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a855b6047994a679106a802acebabdba0">CABECERA_LISTADO</a>[3], <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a855b6047994a679106a802acebabdba0">CABECERA_LISTADO</a>[4]);</div>
+<div class="line"><a id="l00056" name="l00056"></a><span class="lineno">   56</span>    }</div>
+</div>
+<div class="line"><a id="l00057" name="l00057"></a><span class="lineno">   57</span> </div>
+<div class="foldopen" id="foldopen00063" data-start="{" data-end="}">
+<div class="line"><a id="l00063" name="l00063"></a><span class="lineno"><a class="line" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a6f3fe8e3fdc0c4431f99317cc418a1d8">   63</a></span>    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a6f3fe8e3fdc0c4431f99317cc418a1d8">listar</a>(List&lt;String&gt; elemento) {</div>
+<div class="line"><a id="l00064" name="l00064"></a><span class="lineno">   64</span>        <span class="keywordflow">for</span> (<span class="keywordtype">int</span> i = 0; i &lt; elemento.size(); i++) {</div>
+<div class="line"><a id="l00065" name="l00065"></a><span class="lineno">   65</span>            out.printf(<span class="stringliteral">&quot;%d. %s %n&quot;</span>, i + 1, elemento.get(i));</div>
+<div class="line"><a id="l00066" name="l00066"></a><span class="lineno">   66</span>        }</div>
+<div class="line"><a id="l00067" name="l00067"></a><span class="lineno">   67</span>    }</div>
+</div>
+<div class="line"><a id="l00068" name="l00068"></a><span class="lineno">   68</span> </div>
+<div class="foldopen" id="foldopen00072" data-start="{" data-end="}">
+<div class="line"><a id="l00072" name="l00072"></a><span class="lineno"><a class="line" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a6643e9725b1fc9e54fee51d340200119">   72</a></span>    <span class="keyword">public</span> <span class="keywordtype">void</span> <a class="code hl_function" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a6643e9725b1fc9e54fee51d340200119">acercaDe</a>() {</div>
+<div class="line"><a id="l00073" name="l00073"></a><span class="lineno">   73</span>        out.printf(</div>
+<div class="line"><a id="l00074" name="l00074"></a><span class="lineno">   74</span>                <span class="stringliteral">&quot;%s © DrumFest&#39;24 v1.0 %n Aplicación para el registro y gestión de las bandas que conforman el nuevo festival de las/os %n mejores bateristas en el panorama nacional e internacional. %n Rodrigo Martínez Delgado - rodrigo.mardel.daw@gmail.com - 20241120 %s %n&quot;</span>,</div>
+<div class="line"><a id="l00075" name="l00075"></a><span class="lineno">   75</span>                <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#afed62420a270f30b6cbc90d2dbb5e26e">CYAN</a>, <a class="code hl_variable" href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a5bb0c0b1a1acd8cbc9de5d69adb9667f">RESET</a>);</div>
+<div class="line"><a id="l00076" name="l00076"></a><span class="lineno">   76</span>    }</div>
+</div>
+<div class="line"><a id="l00077" name="l00077"></a><span class="lineno">   77</span> </div>
+<div class="line"><a id="l00078" name="l00078"></a><span class="lineno">   78</span>}</div>
+</div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general_html"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_general.html">jcolonia.daw2024.rmd.drumfest.VistaGeneral</a></div><div class="ttdoc">Vista general para la interacción con el usuario.</div><div class="ttdef"><b>Definition</b> <a href="_vista_general_8java_source.html#l00014">VistaGeneral.java:14</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado_html"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html">jcolonia.daw2024.rmd.drumfest.VistaListado</a></div><div class="ttdoc">Vista del listado de un conjunto de elementos en forma de («array») de cadenas de texto.</div><div class="ttdef"><b>Definition</b> <a href="#l00015">VistaListado.java:15</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado_html_a30738716bc9b69a2bdbff90201518669"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a30738716bc9b69a2bdbff90201518669">jcolonia.daw2024.rmd.drumfest.VistaListado.VistaListado</a></div><div class="ttdeci">VistaListado(String nombre, Scanner entrada)</div><div class="ttdoc">Inicializa y asigna el nombre del menú.</div><div class="ttdef"><b>Definition</b> <a href="#l00032">VistaListado.java:32</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado_html_a439a7440cd64c7f82b515725075ccb87"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a439a7440cd64c7f82b515725075ccb87">jcolonia.daw2024.rmd.drumfest.VistaListado.mostrarCabecera</a></div><div class="ttdeci">void mostrarCabecera()</div><div class="ttdoc">Muestra la cabecera del listado.</div><div class="ttdef"><b>Definition</b> <a href="#l00053">VistaListado.java:53</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado_html_a5bb0c0b1a1acd8cbc9de5d69adb9667f"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a5bb0c0b1a1acd8cbc9de5d69adb9667f">jcolonia.daw2024.rmd.drumfest.VistaListado.RESET</a></div><div class="ttdeci">static final String RESET</div><div class="ttdoc">Secuencia de escape ANSI para resetear el estilo.</div><div class="ttdef"><b>Definition</b> <a href="#l00022">VistaListado.java:22</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado_html_a6643e9725b1fc9e54fee51d340200119"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a6643e9725b1fc9e54fee51d340200119">jcolonia.daw2024.rmd.drumfest.VistaListado.acercaDe</a></div><div class="ttdeci">void acercaDe()</div><div class="ttdoc">Muestra información general acerca de la aplicación y su desarrollador.</div><div class="ttdef"><b>Definition</b> <a href="#l00072">VistaListado.java:72</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado_html_a6f3fe8e3fdc0c4431f99317cc418a1d8"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a6f3fe8e3fdc0c4431f99317cc418a1d8">jcolonia.daw2024.rmd.drumfest.VistaListado.listar</a></div><div class="ttdeci">void listar(List&lt; String &gt; elemento)</div><div class="ttdoc">Muestra el listado de los elementos del conjunto.</div><div class="ttdef"><b>Definition</b> <a href="#l00063">VistaListado.java:63</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado_html_a855b6047994a679106a802acebabdba0"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#a855b6047994a679106a802acebabdba0">jcolonia.daw2024.rmd.drumfest.VistaListado.CABECERA_LISTADO</a></div><div class="ttdeci">static final String[] CABECERA_LISTADO</div><div class="ttdoc">Cabecera listado.</div><div class="ttdef"><b>Definition</b> <a href="#l00024">VistaListado.java:24</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado_html_aa3c705799426e73a5bf875a5e20287cb"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#aa3c705799426e73a5bf875a5e20287cb">jcolonia.daw2024.rmd.drumfest.VistaListado.nombre</a></div><div class="ttdeci">String nombre</div><div class="ttdoc">Nombre del menú.</div><div class="ttdef"><b>Definition</b> <a href="#l00018">VistaListado.java:18</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado_html_ae9f7f29640df225a684494e371f6703f"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#ae9f7f29640df225a684494e371f6703f">jcolonia.daw2024.rmd.drumfest.VistaListado.mostrarTítulo</a></div><div class="ttdeci">void mostrarTítulo()</div><div class="ttdoc">Muestra el título asignado para el menú.</div><div class="ttdef"><b>Definition</b> <a href="#l00040">VistaListado.java:40</a></div></div>
+<div class="ttc" id="aclassjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado_html_afed62420a270f30b6cbc90d2dbb5e26e"><div class="ttname"><a href="classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_vista_listado.html#afed62420a270f30b6cbc90d2dbb5e26e">jcolonia.daw2024.rmd.drumfest.VistaListado.CYAN</a></div><div class="ttdeci">static final String CYAN</div><div class="ttdoc">Color celeste para datos en la salida de texto por consola.</div><div class="ttdef"><b>Definition</b> <a href="#l00020">VistaListado.java:20</a></div></div>
+</div><!-- fragment --></div><!-- contents -->
+</div><!-- doc-content -->
+<!-- start footer part -->
+<div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
+  <ul>
+    <li class="navelem"><a class="el" href="dir_68267d1309a1af8e8297ef4c3efbcdba.html">src</a></li><li class="navelem"><a class="el" href="dir_78deb72e8665551e78cec9eb6bfcad5f.html">jcolonia</a></li><li class="navelem"><a class="el" href="dir_608e1fc860cc5e14ae3d5eecca5890fd.html">daw2024</a></li><li class="navelem"><a class="el" href="dir_f32729509785a5ace08fb5780eba9cdb.html">rmd</a></li><li class="navelem"><a class="el" href="dir_8afd5aeb2cd491fcfd2caddef8c706d1.html">drumfest</a></li><li class="navelem"><b>VistaListado.java</b></li>
+    <li class="footer">Generado por <a href="https://www.doxygen.org/index.html"><img class="footer" src="doxygen.svg" width="104" height="31" alt="doxygen"/></a> 1.10.0 </li>
+  </ul>
+</div>
+</body>
+</html>

@@ -1,0 +1,8 @@
+<map id="jcolonia.daw2024.rmd.drumfest.BandaTest" name="jcolonia.daw2024.rmd.drumfest.BandaTest">
+<area shape="rect" id="Node000001" title="Pruebas sobre la clase Banda." alt="" coords="48,715,305,1403"/>
+<area shape="rect" id="Node000002" href="$classjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_banda.html" title="Agrupación de características principales de las bandas musicales." alt="" coords="201,203,451,635"/>
+<area shape="poly" id="edge1_Node000001_Node000002" title=" " alt="" coords="278,635,263,699,258,698,273,634"/>
+<area shape="rect" id="Node000003" href="$enumjcolonia_1_1daw2024_1_1rmd_1_1drumfest_1_1_relevancia.html" title="Enumeración para categorizar la relevancia de las artistas invitadas al evento." alt="" coords="5,5,263,139"/>
+<area shape="poly" id="edge3_Node000001_Node000003" title=" " alt="" coords="131,139,128,203,121,419,122,513,128,635,132,698,127,698,122,635,116,513,115,419,122,203,126,138"/>
+<area shape="poly" id="edge2_Node000002_Node000003" title=" " alt="" coords="173,137,200,187,196,189,168,140"/>
+</map>
