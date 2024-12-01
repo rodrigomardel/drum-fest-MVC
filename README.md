@@ -4,7 +4,7 @@
 
 La aplicación desarrollada tiene como objetivo la gestión eficiente del registro de bandas musicales participantes en **DrumFest'24**, un festival temático centrado en la batería acústica y el mundo de la percusión.
 
-La solución implementa el patrón de diseño **Modelo-Vista-Controlador**, garantizando una separación clara entre la lógica, la presentación y la interacción con el usuario.
+La solución implementa el patrón de diseño **Modelo-Vista-Controlador**, garantizando una separación clara entre la lógica, presentación e interacción con el usuario.
 
 ## Características Principales
 
