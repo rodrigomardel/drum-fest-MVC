@@ -8,8 +8,6 @@ La solución implementa el patrón de diseño **Modelo-Vista-Controlador (MVC)**
 
 ## Características Principales
 
-El sistema incluye las siguientes funcionalidades clave:
-
 - **Registro de nuevas bandas**: Permite registrar la información esencial, incluyendo nombre, género, relevancia, número de miembros y baterista principal.
 - **Listado de bandas**: Muestra los datos registrados de manera estructurada.
 - **Exportación de datos**: Guarda los registros en formato CSV para su integración con otras herramientas.
@@ -61,9 +59,6 @@ n
 ### Listado de Bandas
 
 ```plaintext
-
-2
-
 2
                                       • Cartel DrumFest'24 •
                                       ----------------------
@@ -77,8 +72,6 @@ n
 ### Exportación de datos
 
 ```plaintext
-
-
 3
 ⚠️ ***¡ATENCIÓN!*** ¡Sobrescribirá los registros exportados anteriormente!
 ¿Desea continuar? (S/N)
@@ -90,8 +83,6 @@ s
 ### Eliminación de bandas
 
 ```plaintext
-
-
 5
 ⚠️ ***¡ATENCIÓN!*** ¡Se borrarán todas las bandas!
 ¿Desea continuar? (S/N)
@@ -103,8 +94,6 @@ s
 ### Importación de datos
 
 ```plaintext
-
-
 4
 ⚠️ ***¡ATENCIÓN!*** ¡Perderá los registros no exportados!
 ¿Desea continuar? (S/N)
