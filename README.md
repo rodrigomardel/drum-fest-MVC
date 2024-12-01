@@ -18,6 +18,15 @@ La solución implementa el patrón de diseño **Modelo-Vista-Controlador**, gara
 ### Registro de Bandas
 
 ```plaintext
+~ DrumFest'24 ~
+===============
+1.- Introducir bandas
+2.- Listar bandas
+3.- Exportar bandas
+4.- Importar bandas
+5.- Borrar bandas
+6.- Acerca de...
+7.- Salir
 Seleccione la opción deseada:
 1
 Introduzca la banda deseada:
