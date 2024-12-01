@@ -8,12 +8,10 @@ La solución implementa el patrón de diseño **Modelo-Vista-Controlador (MVC)**
 
 ## Características Principales
 
-- **Registro de nuevas bandas**: Permite registrar la información esencial, incluyendo nombre, género, relevancia, número de miembros y baterista principal.
-- **Listado de bandas**: Muestra los datos registrados de manera estructurada.
-- **Exportación de datos**: Guarda los registros en formato CSV para su integración con otras herramientas.
-- **Importación de datos**: Carga registros desde un archivo CSV.
-- **Eliminación de registros**: Elimina bandas previamente registradas.
-- **Selección de relevancia artística**: Define la importancia de la banda dentro del festival mediante una enumeración.
+- **Introducción de nuevos registros**: permite registrar la información esencial de cada elemento.
+- **Listado de elementos registrados**: muestra los datos almacenados de manera estructurada.
+- **Exportación e importación de datos**: posibilita guardar y cargar la información en formato CSV, facilitando la integración con otras herramientas.
+- **Eliminación de registros**: permite eliminar los registros almacenados.
 
 ## Ejemplo de Funcionamiento
 
