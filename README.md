@@ -1,8 +1,8 @@
-# DrumFest'24: Sistema de Gestión de Bandas Musicales
+# DrumFest - Aplicación de Gestión de Bandas Musicales
 
-## Descripción del Sistema
+## Descripción
 
-El sistema desarrollado tiene como objetivo la gestión eficiente del registro de bandas musicales participantes en **DrumFest'24**, un festival temático centrado en la batería acústica y el mundo de la percusión.
+La aplicación desarrollada tiene como objetivo la gestión eficiente del registro de bandas musicales participantes en **DrumFest'24**, un festival temático centrado en la batería acústica y el mundo de la percusión.
 
 La solución implementa el patrón de diseño **Modelo-Vista-Controlador (MVC)**, garantizando una separación clara entre la lógica, la presentación y la interacción con el usuario.
 
@@ -103,7 +103,7 @@ s
 
 ```
 
-### Scripts
+## Scripts
 
 #### **compilar**
 
