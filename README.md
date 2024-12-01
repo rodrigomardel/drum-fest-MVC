@@ -36,7 +36,7 @@ Relevancia Artista
 Seleccione la opción deseada: 1
 Número de miembros: 4
 Nombre Baterista: Chad Smith
-[32m¡Banda registrada correctamente![0m
+✅ ¡Banda registrada correctamente!
 → Registro de nueva entrada ←
 ¿Desea continuar? (S/N)
 s
@@ -51,10 +51,11 @@ Seleccione la opción deseada:
 1
 Número de miembros:3
 Nombre Baterista:Dominic Howard
-[32m¡Banda registrada correctamente![0m
+✅ ¡Banda registrada correctamente!
 → Registro de nueva entrada ←
 ¿Desea continuar? (S/N)
 n
+
 ```
 
 ### Listado de Bandas
@@ -62,82 +63,91 @@ n
 ```plaintext
 
 2
+
+2
                                       • Cartel DrumFest'24 •
                                       ----------------------
 
                 Nombre               Género             Relevancia       Miembros         Baterista
-1. [36m    Red Hot Chili        Funk Rock            CABEZA_CARTEL         4         Chad Smith    [0m
-2. [36m    Muse                 Art Rock             CABEZA_CARTEL         3         Dominic Howard[0m
+1.  🎸    Red Hot Chili        Funk Rock            CABEZA_CARTEL         4         Chad Smith
+2.  🎸    Muse                 Art Rock             CABEZA_CARTEL         3         Dominic Howard
+
 ```
 
 ### Exportación de datos
 
 ```plaintext
 
+
 3
-[33m ***¡ATENCIÓN!*** ¡Sobrescribirá los registros exportados anteriormente! [0m
+⚠️ ***¡ATENCIÓN!*** ¡Sobrescribirá los registros exportados anteriormente!
 ¿Desea continuar? (S/N)
 s
-[32m ✓ Exportación realizada [0m
+✅ ✓ Exportación realizada
+
 ```
 
 ### Eliminación de bandas
 
 ```plaintext
 
+
 5
-[33m ***¡ATENCIÓN!*** ¡Se borrarán todas las bandas! [0m
+⚠️ ***¡ATENCIÓN!*** ¡Se borrarán todas las bandas!
 ¿Desea continuar? (S/N)
 s
-[32m ✓ Todas las bandas han sido eliminadas [0m
+✅ ✓ Todas las bandas han sido eliminadas
+
 ```
 
 ### Importación de datos
 
 ```plaintext
 
+
 4
-[33m ***¡ATENCIÓN!*** ¡Perderá los registros no exportados! [0m
+⚠️ ***¡ATENCIÓN!*** ¡Perderá los registros no exportados!
 ¿Desea continuar? (S/N)
 s
-[32m ✓ Importación realizada ⇾ [0mRed Hot Chili Peppers#Funk Rock#CABEZA_CARTEL#4#Chad Smith
-[32m ✓ Importación realizada ⇾ [0mMuse#Art Rock#CABEZA_CARTEL#3#Dominic Howard
+✅ ✓ Importación realizada ⇾ Red Hot Chili Peppers#Funk Rock#CABEZA_CARTEL#4#Chad Smith
+✅ ✓ Importación realizada ⇾ Muse#Art Rock#CABEZA_CARTEL#3#Dominic Howard
+
 ```
 
 ### Scripts
 
-## **compilar**
+#### **compilar**
 
 Compila los archivos fuente del proyecto:
 
 - Verifica la presencia de dependencias (`JUnit`).
 - Genera los archivos `.class` en la carpeta `bin`.
 
-## **documentar**
+#### **documentar**
 
 Genera documentación en HTML con `javadoc`:
 
 - Configura enlaces a Java SE 21 y JUnit 5.
 - Salida almacenada en `doc`.
 
-## **doxumentar**
+#### **doxumentar**
 
 Crea documentación técnica con `Doxygen`:
 
 - Genera diagramas y detalles técnicos en `dox`.
 - Registra errores en `doxumentar.log`.
 
-## **ejecutar**
+#### **ejecutar**
 
 Ejecuta el programa principal desde consola:
 
 - Llama a la clase principal `ControlBandas`.
 
-## **limpiar**
+#### **limpiar**
 
 Elimina carpetas generadas (`bin`, `doc`, `dox`, `dist`) para limpieza.
 
-## **probar**
+#### **probar**
 
 Ejecuta pruebas unitarias con `JUnit`:
 
