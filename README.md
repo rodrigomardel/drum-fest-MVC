@@ -1,4 +1,4 @@
-# DrumFest - Aplicación de Gestión de Bandas Musicales
+# DrumFest - Gestión de Bandas Musicales
 
 ## Descripción
 
