@@ -1,21 +1,26 @@
+<div align="center">
+
 # DrumFest - Gestión de Bandas Musicales
 
 ## Descripción
-
+</div>
 La aplicación desarrollada tiene como objetivo la gestión eficiente del registro de bandas musicales participantes en **DrumFest'24**, un festival temático centrado en la batería acústica y el mundo de la percusión.
 
 La solución implementa el patrón de diseño **Modelo-Vista-Controlador**, garantizando una separación clara entre la lógica, presentación e interacción con el usuario.
+<div align="center">
 
 ## Características Principales
-
+</div>
 - **Introducción de nuevos registros**: permite registrar la información esencial de cada elemento.
 - **Listado de elementos registrados**: muestra los datos almacenados de manera estructurada.
 - **Exportación e importación de datos**: posibilita guardar y cargar la información en formato CSV, facilitando la integración con otras herramientas.
 - **Eliminación de registros**: permite eliminar los registros almacenados.
+<div align="center">
 
 ## Ejemplo de Funcionamiento
 
 ### Registro de Bandas
+
 
 ```plaintext
 ~ DrumFest'24 ~
@@ -76,8 +81,8 @@ n
 
 ```
 
-### Exportación de datos
 
+### Exportación de datos
 ```plaintext
 3
 ⚠️ ***¡ATENCIÓN!*** ¡Sobrescribirá los registros exportados anteriormente!
@@ -111,6 +116,7 @@ s
 ```
 
 ## Scripts
+</div>
 
 #### **compilar**
 
