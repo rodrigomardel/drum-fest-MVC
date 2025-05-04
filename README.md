@@ -20,7 +20,7 @@ La solución implementa el patrón de diseño **Modelo-Vista-Controlador**, gara
 ## Ejemplo de Funcionamiento
 
 ### Registro de Bandas
-
+</div>
 
 ```plaintext
 ~ DrumFest'24 ~
@@ -67,8 +67,10 @@ Nombre Baterista:Dominic Howard
 n
 
 ```
+<div align="center">
 
 ### Listado de Bandas
+</div>
 
 ```plaintext
 2
@@ -81,8 +83,11 @@ n
 
 ```
 
+<div align="center">
 
 ### Exportación de datos
+</div>
+
 ```plaintext
 3
 ⚠️ ***¡ATENCIÓN!*** ¡Sobrescribirá los registros exportados anteriormente!
@@ -91,8 +96,10 @@ s
 ✅ ✓ Exportación realizada
 
 ```
+<div align="center">
 
 ### Eliminación de bandas
+</div>
 
 ```plaintext
 5
@@ -102,8 +109,10 @@ s
 ✅ ✓ Todas las bandas han sido eliminadas
 
 ```
+<div align="center">
 
 ### Importación de datos
+</div>
 
 ```plaintext
 4
@@ -114,6 +123,8 @@ s
 ✅ ✓ Importación realizada ⇾ Muse#Art Rock#CABEZA_CARTEL#3#Dominic Howard
 
 ```
+
+<div align="center">
 
 ## Scripts
 </div>
