@@ -11,10 +11,12 @@ La solución implementa el patrón de diseño **Modelo-Vista-Controlador**, gara
 
 ## Características Principales
 </div>
+
 - **Introducción de nuevos registros**: permite registrar la información esencial de cada elemento.
 - **Listado de elementos registrados**: muestra los datos almacenados de manera estructurada.
 - **Exportación e importación de datos**: posibilita guardar y cargar la información en formato CSV, facilitando la integración con otras herramientas.
 - **Eliminación de registros**: permite eliminar los registros almacenados.
+
 <div align="center">
 
 ## Ejemplo de Funcionamiento
